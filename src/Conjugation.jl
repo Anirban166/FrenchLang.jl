@@ -5,6 +5,7 @@ while true
   base = chop(verbFR, tail = 2)
   println("Enter its English translation / Entrez sa traduction en anglais")
   verbEN = readline()
+  println("Conjugated verbs: (present tense, indicative mood, first/second/third person) / Verbes conjugués: (présent, mode indicatif, première/deuxième/troisième personne)")  
   if endswith(verbFR, "er")
     println("Je ", base, "e (I ", verbEN, ")\n",
             "Tu ", base, "es (You ", verbEN, " - informal)\n",
