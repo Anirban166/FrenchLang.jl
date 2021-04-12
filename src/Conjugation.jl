@@ -1,11 +1,11 @@
 # Author: Anirban166 | Last updated: 11/04/21
 while true
-  println("Enter a French verb / Entrez un verbe français") 
+  println("Enter a regular French verb / Entrez un verbe français") 
   verbFR = readline()
   base = chop(verbFR, tail = 2)
   println("Enter its English translation / Entrez sa traduction en anglais")
   verbEN = readline()
-  println("Conjugated verbs: (present tense, indicative mood, first/second/third person) / Verbes conjugués: (présent, mode indicatif, première/deuxième/troisième personne)")  
+  println("Conjugated verbs: (simple present tense, indicative mood, first/second/third person) / Verbes conjugués: (temps du présent simple, mode indicatif, première/deuxième/troisième personne)")  
   if endswith(verbFR, "er")
     println("Je ", base, "e (I ", verbEN, ")\n",
             "Tu ", base, "es (You ", verbEN, " - informal)\n",
