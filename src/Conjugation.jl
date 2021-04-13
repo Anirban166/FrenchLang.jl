@@ -25,7 +25,7 @@ while true
             "Vous ", base, "issez (You ", verbEN, " - formal)\n",
             "Nous ", base, "issons (We ", verbEN, ")") 
   elseif endswith(verbFR, "re")
-    println("Je ", base, " (I ", verbEN, ")\n",
+    println("Je ", base, "s (I ", verbEN, ")\n",
             "Tu ", base, "s (You ", verbEN, " - informal)\n",
             "Il ", base, " (He ", verbEN, "s)\n", 
             "Elle ", base, " (She ", verbEN, "s)\n", 
