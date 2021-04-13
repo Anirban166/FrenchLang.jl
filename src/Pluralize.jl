@@ -4,7 +4,7 @@ while true
   word = readline()
   if endswith(word, "s") || endswith(word, "x") || endswith(word, "z")
     println("Plural version / Version plurielle: ", word)  
-  elseif endswith(word, "eau") || endswith(word, "eu") || endswith(word, "ou")
+  elseif endswith(word, "eau") || endswith(word, "eu") || endswith(word, "au") || endswith(word, "ou")
     println("Plural version / Version plurielle: ", word, "x")  
   elseif endswith(word, "al")
     println("Plural version / Version plurielle: ", chop(word, tail = 1), "ux")  
